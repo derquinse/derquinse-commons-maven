@@ -226,13 +226,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<extensions>
-			<extension>
-				<groupId>org.apache.maven.wagon</groupId>
-				<artifactId>wagon-webdav</artifactId>
-				<version>1.0-beta-2</version>
-			</extension>
-		</extensions>
 	</build>
 
 	<dependencyManagement>
@@ -240,7 +233,7 @@
 			<dependency>
 				<groupId>com.google.guava</groupId>
 				<artifactId>guava</artifactId>
-				<version>13.0.1</version>
+				<version>14.0-rc3</version>
 			</dependency>
 			<dependency>
 				<groupId>joda-time</groupId>
@@ -312,77 +305,77 @@
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-aop</artifactId>
-				<version>3.2.0.RELEASE</version>
+				<version>3.2.1.RELEASE</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-aspects</artifactId>
-				<version>3.2.0.RELEASE</version>
+				<version>3.2.1.RELEASE</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-beans</artifactId>
-				<version>3.2.0.RELEASE</version>
+				<version>3.2.1.RELEASE</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-expression</artifactId>
-				<version>3.2.0.RELEASE</version>
+				<version>3.2.1.RELEASE</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-core</artifactId>
-				<version>3.2.0.RELEASE</version>
+				<version>3.2.1.RELEASE</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-context</artifactId>
-				<version>3.2.0.RELEASE</version>
+				<version>3.2.1.RELEASE</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-context-support</artifactId>
-				<version>3.2.0.RELEASE</version>
+				<version>3.2.1.RELEASE</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-jdbc</artifactId>
-				<version>3.2.0.RELEASE</version>
+				<version>3.2.1.RELEASE</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-orm</artifactId>
-				<version>3.2.0.RELEASE</version>
+				<version>3.2.1.RELEASE</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-oxm</artifactId>
-				<version>3.2.0.RELEASE</version>
+				<version>3.2.1.RELEASE</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-tx</artifactId>
-				<version>3.2.0.RELEASE</version>
+				<version>3.2.1.RELEASE</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-web</artifactId>
-				<version>3.2.0.RELEASE</version>
+				<version>3.2.1.RELEASE</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-webmvc</artifactId>
-				<version>3.2.0.RELEASE</version>
+				<version>3.2.1.RELEASE</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-webmvc-portlet</artifactId>
-				<version>3.2.0.RELEASE</version>
+				<version>3.2.1.RELEASE</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-test</artifactId>
-				<version>3.2.0.RELEASE</version>
+				<version>3.2.1.RELEASE</version>
 				<scope>test</scope>
 			</dependency>
 			<!-- Spring Security -->
@@ -481,67 +474,67 @@
 			<dependency>
 				<groupId>com.sun.jersey</groupId>
 				<artifactId>jersey-core</artifactId>
-				<version>1.16</version>
+				<version>1.17</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey</groupId>
 				<artifactId>jersey-client</artifactId>
-				<version>1.16</version>
+				<version>1.17</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey</groupId>
 				<artifactId>jersey-server</artifactId>
-				<version>1.16</version>
+				<version>1.17</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey.contribs</groupId>
 				<artifactId>jersey-multipart</artifactId>
-				<version>1.16</version>
+				<version>1.17</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey.contribs</groupId>
 				<artifactId>jersey-spring</artifactId>
-				<version>1.16</version>
+				<version>1.17</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey</groupId>
 				<artifactId>jersey-json</artifactId>
-				<version>1.16</version>
+				<version>1.17</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey.jersey-test-framework</groupId>
 				<artifactId>jersey-test-framework-inmemory</artifactId>
-				<version>1.16</version>
+				<version>1.17</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey.jersey-test-framework</groupId>
 				<artifactId>jersey-test-framework-external</artifactId>
-				<version>1.16</version>
+				<version>1.17</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey.jersey-test-framework</groupId>
 				<artifactId>jersey-test-framework-http</artifactId>
-				<version>1.13</version>
+				<version>1.17</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey.jersey-test-framework</groupId>
 				<artifactId>jersey-test-framework-grizzly</artifactId>
-				<version>1.16</version>
+				<version>1.17</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey.jersey-test-framework</groupId>
 				<artifactId>jersey-test-framework-grizzly2</artifactId>
-				<version>1.16</version>
+				<version>1.17</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey.jersey-test-framework</groupId>
 				<artifactId>jersey-test-framework-core</artifactId>
-				<version>1.16</version>
+				<version>1.17</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey.jersey-test-framework</groupId>
 				<artifactId>jersey-test-framework-embedded-glassfish</artifactId>
-				<version>1.16</version>
+				<version>1.17</version>
 			</dependency>
 			<!-- Gson -->
 			<dependency>
