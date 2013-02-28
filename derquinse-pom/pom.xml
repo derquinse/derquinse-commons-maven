@@ -211,10 +211,10 @@
 					<minmemory>256m</minmemory>
 					<maxmemory>640m</maxmemory>
 					<links>
-						<link>http://docs.guava-libraries.googlecode.com/git-history/v13.0.1/javadoc</link>
+						<link>http://docs.guava-libraries.googlecode.com/git-history/v14.0/javadoc</link>
 						<link>http://joda-time.sourceforge.net/api-release</link>
 						<link>http://jsr311.java.net/nonav/releases/1.1</link>
-						<link>http://jersey.java.net/nonav/apidocs/1.16/jersey</link>
+						<link>http://jersey.java.net/nonav/apidocs/1.17/jersey</link>
 						<link>http://google-gson.googlecode.com/svn/trunk/gson/docs/javadocs</link>
 						<link>http://docs.jboss.org/hibernate/core/3.6/javadocs</link>
 						<link>http://docs.oracle.com/javaee/6/api</link>
@@ -233,7 +233,7 @@
 			<dependency>
 				<groupId>com.google.guava</groupId>
 				<artifactId>guava</artifactId>
-				<version>14.0-rc3</version>
+				<version>14.0</version>
 			</dependency>
 			<dependency>
 				<groupId>joda-time</groupId>
@@ -474,67 +474,67 @@
 			<dependency>
 				<groupId>com.sun.jersey</groupId>
 				<artifactId>jersey-core</artifactId>
-				<version>1.17</version>
+				<version>1.17.1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey</groupId>
 				<artifactId>jersey-client</artifactId>
-				<version>1.17</version>
+				<version>1.17.1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey</groupId>
 				<artifactId>jersey-server</artifactId>
-				<version>1.17</version>
+				<version>1.17.1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey.contribs</groupId>
 				<artifactId>jersey-multipart</artifactId>
-				<version>1.17</version>
+				<version>1.17.1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey.contribs</groupId>
 				<artifactId>jersey-spring</artifactId>
-				<version>1.17</version>
+				<version>1.17.1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey</groupId>
 				<artifactId>jersey-json</artifactId>
-				<version>1.17</version>
+				<version>1.17.1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey.jersey-test-framework</groupId>
 				<artifactId>jersey-test-framework-inmemory</artifactId>
-				<version>1.17</version>
+				<version>1.17.1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey.jersey-test-framework</groupId>
 				<artifactId>jersey-test-framework-external</artifactId>
-				<version>1.17</version>
+				<version>1.17.1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey.jersey-test-framework</groupId>
 				<artifactId>jersey-test-framework-http</artifactId>
-				<version>1.17</version>
+				<version>1.17.1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey.jersey-test-framework</groupId>
 				<artifactId>jersey-test-framework-grizzly</artifactId>
-				<version>1.17</version>
+				<version>1.17.1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey.jersey-test-framework</groupId>
 				<artifactId>jersey-test-framework-grizzly2</artifactId>
-				<version>1.17</version>
+				<version>1.17.1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey.jersey-test-framework</groupId>
 				<artifactId>jersey-test-framework-core</artifactId>
-				<version>1.17</version>
+				<version>1.17.1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey.jersey-test-framework</groupId>
 				<artifactId>jersey-test-framework-embedded-glassfish</artifactId>
-				<version>1.17</version>
+				<version>1.17.1</version>
 			</dependency>
 			<!-- Gson -->
 			<dependency>
