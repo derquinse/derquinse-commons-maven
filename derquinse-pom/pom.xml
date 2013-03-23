@@ -221,6 +221,7 @@
 						<link>http://static.springsource.org/spring/docs/3.2.x/javadoc-api</link>
 						<link>http://static.springsource.org/spring-security/site/docs/3.1.x/apidocs</link>
 						<link>http://lucene.apache.org/core/3_6_2/api/all/</link>
+						<link>http://metrics.codahale.com/maven/apidocs/</link>
 					</links>
 					<version>false</version>
 				</configuration>
