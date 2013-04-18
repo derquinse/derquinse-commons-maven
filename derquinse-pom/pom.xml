@@ -52,7 +52,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.0</version>
+					<version>3.1</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -92,7 +92,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
-					<version>2.14</version>
+					<version>2.14.1</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -107,7 +107,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-dependency-plugin</artifactId>
-					<version>2.6</version>
+					<version>2.7</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -273,28 +273,28 @@
 			<dependency>
 				<groupId>org.slf4j</groupId>
 				<artifactId>slf4j-simple</artifactId>
-				<version>1.7.4</version>
+				<version>1.7.5</version>
 			</dependency>
 			<dependency>
 				<groupId>org.slf4j</groupId>
 				<artifactId>slf4j-api</artifactId>
-				<version>1.7.4</version>
+				<version>1.7.5</version>
 			</dependency>
 			<dependency>
 				<groupId>org.slf4j</groupId>
 				<artifactId>slf4j-log4j12</artifactId>
-				<version>1.7.4</version>
+				<version>1.7.5</version>
 			</dependency>
 			<!-- Logback -->
 			<dependency>
 				<groupId>ch.qos.logback</groupId>
 				<artifactId>logback-core</artifactId>
-				<version>1.0.10</version>
+				<version>1.0.11</version>
 			</dependency>
 			<dependency>
 				<groupId>ch.qos.logback</groupId>
 				<artifactId>logback-classic</artifactId>
-				<version>1.0.10</version>
+				<version>1.0.11</version>
 			</dependency>
 			<!-- Hessian -->
 			<dependency>
@@ -541,7 +541,7 @@
 			<dependency>
 				<groupId>com.google.code.gson</groupId>
 				<artifactId>gson</artifactId>
-				<version>2.2.2</version>
+				<version>2.2.3</version>
 			</dependency>
 			<!-- Lucene -->
 			<dependency>
@@ -568,72 +568,62 @@
 			<dependency>
 				<groupId>com.yammer.metrics</groupId>
 				<artifactId>metrics-core</artifactId>
-				<version>2.2.0</version>
+				<version>3.0.0-BETA1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.yammer.metrics</groupId>
 				<artifactId>metrics-logback</artifactId>
-				<version>2.2.0</version>
-			</dependency>
-			<dependency>
-				<groupId>com.yammer.metrics</groupId>
-				<artifactId>metrics-web</artifactId>
-				<version>2.2.0</version>
-			</dependency>
-			<dependency>
-				<groupId>com.yammer.metrics</groupId>
-				<artifactId>metrics-spring</artifactId>
-				<version>2.2.0</version>
+				<version>3.0.0-BETA1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.yammer.metrics</groupId>
 				<artifactId>metrics-jersey</artifactId>
-				<version>2.2.0</version>
+				<version>3.0.0-BETA1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.yammer.metrics</groupId>
 				<artifactId>metrics-servlet</artifactId>
-				<version>2.2.0</version>
+				<version>3.0.0-BETA1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.yammer.metrics</groupId>
-				<artifactId>metrics-guice</artifactId>
-				<version>2.2.0</version>
+				<artifactId>metrics-servlets</artifactId>
+				<version>3.0.0-BETA1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.yammer.metrics</groupId>
 				<artifactId>metrics-annotation</artifactId>
-				<version>2.2.0</version>
+				<version>3.0.0-BETA1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.yammer.metrics</groupId>
-				<artifactId>metrics-jetty</artifactId>
-				<version>2.2.0</version>
+				<artifactId>metrics-jetty8</artifactId>
+				<version>3.0.0-BETA1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.yammer.metrics</groupId>
 				<artifactId>metrics-graphite</artifactId>
-				<version>2.2.0</version>
+				<version>3.0.0-BETA1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.yammer.metrics</groupId>
 				<artifactId>metrics-ganglia</artifactId>
-				<version>2.2.0</version>
+				<version>3.0.0-BETA1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.yammer.metrics</groupId>
 				<artifactId>metrics-log4j</artifactId>
-				<version>2.2.0</version>
+				<version>3.0.0-BETA1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.yammer.metrics</groupId>
 				<artifactId>metrics-jdbi</artifactId>
-				<version>2.2.0</version>
+				<version>3.0.0-BETA1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.yammer.metrics</groupId>
 				<artifactId>metrics-ehcache</artifactId>
-				<version>2.2.0</version>
+				<version>3.0.0-BETA1</version>
 			</dependency>
 			<!-- H2 Database -->
 			<dependency>
@@ -645,7 +635,7 @@
 			<dependency>
 				<groupId>org.testng</groupId>
 				<artifactId>testng</artifactId>
-				<version>6.8</version>
+				<version>6.8.1</version>
 				<exclusions>
 					<exclusion>
 						<groupId>junit</groupId>
@@ -663,12 +653,12 @@
 			<dependency>
 				<groupId>org.apache.maven.surefire</groupId>
 				<artifactId>surefire-junit47</artifactId>
-				<version>2.14</version>
+				<version>2.14.1</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.maven.surefire</groupId>
 				<artifactId>surefire-testng</artifactId>
-				<version>2.14</version>
+				<version>2.14.1</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
