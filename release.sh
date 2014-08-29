@@ -31,6 +31,6 @@ git commit -a -m "Version $NVER" || error_exit "Unable to commit" 6
 # Install and deploy
 mvn -Psonatype-oss-release install deploy || error_exit "Unable to install and deploy version $NVER" 7
 # Tag and push
-git tag -a -m "$BUILDDIR-$NVER" || error_exit "Unable to tag version $NVER" 8
+git tag -a $BUILDDIR-$NVER -m "Version $NVER" || error_exit "Unable to tag version $NVER" 8
 git push --follow-tags || error_exit "Unable to tag version $NVER" 9
 
